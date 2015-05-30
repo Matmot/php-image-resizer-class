@@ -13,7 +13,7 @@
  * the actual one i use in my picture editor project but simple enough to do the work,
  * and for the brave developers out there you can use this script to resize images as 
  * it is uploaded to a particular size you require of your users, also can be used to create
- * thumbnail images..
+ * thumbnail images.. 
  *
  * 
  */
