@@ -6,14 +6,14 @@
  * @link www.dpedit.tk Thats is the lisk to my picture editing web app which this script was coin out from, doh suspended but working on it offline
  * @version v1.0
  *  
- * Image Resizer Class/File
+ * Image Resizer Class
  * 
  * This Image Resizer class is a part of my project on www.dpedit.tk
  * I tot to share this, thinking it would be useful, doh its just a simple version of 
  * the actual one i use in my picture editor project but simple enough to do the work,
  * and for the brave developers out there you can use this script to resize images as 
  * it is uploaded to a particular size you require of your users, also can be used to create
- * thumbnail images.. 
+ * thumbnail images..
  *
  * 
  */
@@ -90,7 +90,7 @@ $img = $image->resizeImage($_GET['img'], (int)$_GET['width']);
 $quality = (isset($_GET['quality']) && !empty($_GET['quality'])) ? $_GET['quality'] : 80;
 
 // return image as jpg
-imagejpeg($img[0]);
+imagejpeg($img[0], NULL, $quality);
 
 // release resource
 imagedestroy($img[0]);
