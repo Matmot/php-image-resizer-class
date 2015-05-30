@@ -79,7 +79,7 @@ class ImgResize {
  * <img src="image.php?img=image.jpg&width=450&quality=90&type=png" />
  * 
  */
-header("Content-type: image/png"); // change the header(type) of this file to be image file
+header("Content-type: image/jpeg"); // change the header(type) of this file to be image file
 // initialize the image editing class
 $image = new ImgResize;
 
