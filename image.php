@@ -72,7 +72,7 @@ class ImgResize {
  * 
  * size width
  * type - png | jpeg
- * path - src
+ * img - src | path to image
  * quality
  * 
  * img tag will be like so
