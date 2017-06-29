@@ -1,7 +1,5 @@
 # php-image-resizer
-PHP Image Resizer Class
-
-PHP Class to resize images on the fly mostly while coding in HTML
+PHP Image Resizer Class to resize images on the fly mostly while coding in HTML
 
 ### Advantages
 
