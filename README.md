@@ -4,7 +4,7 @@ PHP Image Resizer Class to resize images on the fly mostly while coding in HTML
 ### Advantages
 
 - You would make your website load faster
-- You wont have to type <img width="...px", to resize and image actually knowing it still has original its file size and width the same therefore only a good html interpreter(browser) can try to minimize the image file size
+- You wont have to type `<img width="...px"`, to resize and image actually knowing it still has original its file size and width the same therefore only a good html interpreter(browser) can try to minimize the image file size
 - You can use it to generate image thumbnails(more for/like cache-ing)
 - You can use it to compress images to have smaller size with desired width by only manioulating the quality value i.e no need to learn/open up your photo editing software
 - and many advantages you could imagine....
